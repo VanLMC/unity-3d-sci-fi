@@ -15,7 +15,7 @@ C:/Users/junio/OneDrive/Documentos/projetos/unity-3d-sci-fi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59378
+52015
 Successfully changed project path to: C:/Users/junio/OneDrive/Documentos/projetos/unity-3d-sci-fi
 C:/Users/junio/OneDrive/Documentos/projetos/unity-3d-sci-fi
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/junio/OneDrive/Documentos/projetos/unity-3d-sci-fi
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 86.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005333 seconds.
+Registered in 0.007426 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
+- Completed reload, in  0.648 seconds
 Domain Reload Profiling:
-	ReloadAssembly (596ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (421ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (252ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (87ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005781 seconds.
+Registered in 0.007030 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\junio\OneDrive\Documentos\projetos\unity-3d-sci-fi\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\junio\OneDrive\Documentos\projetos\unity-3d-sci-fi\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  1.169 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1016ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (790ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (894ms)
+			LoadAssemblies (210ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (366ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3431 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3889.
-Memory consumption went from 121.1 MB to 121.0 MB.
-Total: 3.601700 ms (FindLiveObjects: 0.372700 ms CreateObjectMapping: 0.114200 ms MarkObjects: 2.963200 ms  DeleteObjects: 0.150100 ms)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3893.
+Memory consumption went from 121.4 MB to 121.3 MB.
+Total: 4.042700 ms (FindLiveObjects: 0.510900 ms CreateObjectMapping: 0.129300 ms MarkObjects: 3.225600 ms  DeleteObjects: 0.174300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,31 +162,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 73022.346391 seconds.
-  path: Assets/Game
-  artifactKey: Guid(5653e3d5ee3931b4db974555dc218258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game using Guid(5653e3d5ee3931b4db974555dc218258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6009703977732067c41d7cfcb3b8a4a') in 0.015948 seconds 
+  Time since last request: 219279.091481 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Market/MarketFloorTileSand.mat
+  artifactKey: Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Market/MarketFloorTileSand.mat using Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6bc2670c4456493227642810146443') in 0.203857 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.689669 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.008146 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Animations/Player/Idle.fbx
+  artifactKey: Guid(c61460273d36d0b4e936b68977241e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Animations/Player/Idle.fbx using Guid(c61460273d36d0b4e936b68977241e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690f83e8893324df830d374b7a7af758') in 0.139006 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.274196 seconds.
-  path: Assets/Game/_Scenes
-  artifactKey: Guid(b98c3135fd0240a4599470f448d4698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/_Scenes using Guid(b98c3135fd0240a4599470f448d4698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52da8be25ea42f777d51691221713f67') in 0.009630 seconds 
+  Time since last request: 0.000066 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/SecurityRoom/SecurityRoomFloorAlbedo.tif
+  artifactKey: Guid(1bcc788d0e1020646bd703ed8ecdd29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/SecurityRoom/SecurityRoomFloorAlbedo.tif using Guid(1bcc788d0e1020646bd703ed8ecdd29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c678dfeca6118638741e5e0d2a8b008') in 0.042113 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.087374 seconds.
-  path: Assets/Game/Game_Models
-  artifactKey: Guid(8c63c79a0a8817c4d92dd90d983ff960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Game_Models using Guid(8c63c79a0a8817c4d92dd90d983ff960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c7b73bdfb209d257ef2f90f81250f0') in 0.013506 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Models/Materials/SecurityRoom_Floor.mat
+  artifactKey: Guid(d66f730824bd0e74ab7e23ef6feaf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Models/Materials/SecurityRoom_Floor.mat using Guid(d66f730824bd0e74ab7e23ef6feaf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7c65d5ed6b05453b7cf1b5134ecb5e') in 0.028840 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.114081 seconds.
-  path: Assets/Game/Game_Models/Level.prefab
-  artifactKey: Guid(93fb048d0136f084cb1f783ca99e5ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Game_Models/Level.prefab using Guid(93fb048d0136f084cb1f783ca99e5ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e2f2401e5aad05cdbb6fce7d45852b') in 1.904918 seconds 
+  Time since last request: 0.000065 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Sci-Fi Weapons/Base Pack/Rifle/Rifle.fbx
+  artifactKey: Guid(1dc2a27ad3a63d24bad7f1c6d159013e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Sci-Fi Weapons/Base Pack/Rifle/Rifle.fbx using Guid(1dc2a27ad3a63d24bad7f1c6d159013e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb21457061c90bed6ada5513e531a590') in 0.202098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Effects/hit_marker_particle/Textures/ParticleFlamesSheet.png
+  artifactKey: Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Effects/hit_marker_particle/Textures/ParticleFlamesSheet.png using Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a945d7a4233267e08a44404d242ed30') in 0.049549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Models/MarketEnvironment.FBX
+  artifactKey: Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Models/MarketEnvironment.FBX using Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adc0f0bf5f832b96c816978d73f2383') in 0.777419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 240.018566 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Market/MarketFloorTileSand.mat
+  artifactKey: Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Market/MarketFloorTileSand.mat using Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5227b02b095a4f1f323004d42e846cf7') in 0.091986 seconds 
